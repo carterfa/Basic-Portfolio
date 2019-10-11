@@ -21,7 +21,6 @@ body {
     background: white;
     margin: 0;
     padding: 0px;
-    height: 62px;
     border-bottom: 1px solid #cccccc;
 }
 
@@ -29,6 +28,19 @@ body {
     width: 960px;
     margin: 0 auto;
     clear: both;
+}
+
+h1 { 
+    color: white;
+    background: #4aaaa5;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
 }
 
 .content{
@@ -52,19 +64,7 @@ footer{
     flex-shrink: 0;
 }
 
-h1 { 
-    color: white;
-    background: #4aaaa5;
-    font-size: 20px;
-    padding: 20px;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    position: absolute;
-    left: 175px;
-    width: 200px;
-}
+
 
 
 h2 {
@@ -121,24 +121,7 @@ a:hover {
 a:active {
     text-decoration: underline;
   }
-/*
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1em 1em;
-    text-decoration: none;
-}
-  
-li a:hover {
-    background-color: #006666;
-}
 
-.active {
-    background-color: #009999;
-}
-
-*/
 #message{
     background-color: white;
     width: 50em;
@@ -170,3 +153,24 @@ button {
 button:hover{
     background-color: #009999;
 } 
+
+.gallery img {
+    margin: 0;
+    height: 240px;
+    width: 320px;
+}
+
+.imgholder {
+    position: relative;
+    margin: 20px;
+    float: left;
+}
+
+.txtbox{
+    position: absolute;  
+    margin: auto;
+    width: 320px;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+  }
