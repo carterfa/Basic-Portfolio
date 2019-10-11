@@ -110,6 +110,11 @@ nav, li, a {
     list-style-type: none;
 }
 
+.active {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
 a:link {
     text-decoration: none;
   }
